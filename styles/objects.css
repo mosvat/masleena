@@ -1,0 +1,57 @@
+﻿
+
+#bandit {
+	position: absolute; 
+	width: 175px;
+	height: 175px;
+	bottom:0px;
+	background-color: rgba(0,0,0,0);
+	background-image: url('../images/bandit1.png');
+	background-size: 100% 100%;
+	background-position: 0 25px;
+	background-repeat: no-repeat;
+	/*transition-duration: 0.1s;*/
+}
+  
+#korzina {
+	position: absolute; 	
+	bottom: 5px;
+	left: calc(50% - 40px);
+	width: 80px;
+	height: 50px;
+	opacity:1;
+	/*background-color: orange;*/
+}  
+    
+  
+.masleena {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background-image: url('../images/masleena.png');
+	background-size: 100% 100%;
+}
+ 
+.vodka {
+	position: absolute;
+	width: 25px;
+	height: 50px;
+	background-image: url('../images/vodka.png');
+	background-size: 100% 100%;
+} 
+ 
+.shelupon {
+	position: absolute;
+	width: 80px;
+	height: 160px;
+	background-image: url('../images/shelupon.png');
+	background-size: 100% 100%;
+} 
+ 
+.delete {
+	font-style: bold;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	//color: RGBA(200,55,2,0.25);
+} 

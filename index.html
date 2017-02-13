@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link id="css1" href="styles/style.css" rel="stylesheet">
+<link id="css2" href="styles/objects.css" rel="stylesheet">
+<script src="scripts/script.js"></script>
+<script src="scripts/class.js"></script>
+</head>
+<body>
+
+<audio src="sounds/music.mp3" id="hellfire"></audio>
+<audio src="sounds/gotach1.wav" id="gotcha1"></audio>
+<audio src="sounds/shelupon.wav" id="shelupon"></audio>
+<audio src="sounds/smallmedkit1.wav" id="smallmedkit1"></audio>
+<audio src="sounds/ammo_pickup.wav" id="pickup"></audio>
+
+<div id="main">
+
+<div id="sky1"></div>
+
+	<div id="workspace">
+		<div id="bandit">
+			<div id="korzina"></div>
+		</div>
+	</div>
+	
+	<div class="pannel">
+		<p id='lle'></p>
+		<p id='lle1'></p>
+		<p id='lle2'></p>
+		<div class="heal healA"></div>
+		<div class="heal" id="heal"></div>
+	</div>
+	
+	<div id="mousepace"></div>
+	
+	<div id="mainmenu">
+		<div class="head0">Main menu</div>
+		<button onclick="start()">Start</button>
+		<button onclick="show('setting1')">Setting</button>
+		<button onclick="">Rullets</button>
+		<button onclick="window.close()">Exit</button>
+	</div>
+	
+	<div id="setting1">
+		<div class="head0">Setting</div>
+		<button onclick="show('setting1')">Return</button>
+		<input type="range" id="ratio0" value="0" min="0" max="1" step="0.01" onchange="mus.volume = this.value"/> 
+		<input type="range" value="1" min="0" max="1" step="0.01" onchange="souCh(this.value)"/> 
+		<input type="checkbox" onchange="sky(this.checked)"/>
+	</div>
+	
+	
+	
+</div>	
+	
+	
+	
+	
+	
+
+	
+</body>
+</html>
